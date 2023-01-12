@@ -192,6 +192,7 @@ input[type="color"]{
     max-width: 700px;
     margin: 0 auto;
     border: solid 2px #8504ff;
+    text-align: left;
 }
 
 
