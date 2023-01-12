@@ -45,7 +45,7 @@ class BoxShadowGenerator {
     }
 
     applyRule(){
-        this.previewBox.style.boxShadow = `${this.horizontalRef.value}px ${this.verticalRef.value}px ${this.blurRef.value}px ${this.spreadRef.value}px #000000`;
+        this.previewBox.style.boxShadow = `${this.horizontalRef.value}px; ${this.verticalRef.value}px; ${this.blurRef.value}px; ${this.spreadRef.value}px; #000000`;
         this.currentRule = this.previewBox.style.boxShadow;
     }
 
